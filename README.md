@@ -33,16 +33,23 @@ Project ini memiliki 3 service utama:
 git clone <URL_REPOSITORY>
 cd <NAMA_FOLDER>
 
-2. Jalankan Docker Compose
+```
+
+### 2. Jalankan Docker Compose
+```bash
 docker-compose up -d
+```
 
-3. Cek container berjalan
+### 3. Cek container berjalan
+```bash
 docker ps
-
-4. Akses WordPress
+```
+### 4. Akses WordPress
+```bash
 http://localhost:8000
-
-5. Lakukan instalasi WordPress
+```
+### 5. Lakukan instalasi WordPress
+```bash
 - Pilih bahasa
 - Isi nama website
 - Buat username admin
