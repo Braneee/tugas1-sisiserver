@@ -38,47 +38,45 @@ cd tugas1-sisiserver
 ### 2. Jalankan Docker Compose
 ```bash
 docker-compose up -d
-<img width="905" height="315" alt="image" src="https://github.com/user-attachments/assets/3ad461b6-6093-4008-9627-dc93c93f692a" />
-
 ```
+![79aa77ba-6be9-4a4a-9762-7d90beabac2c](https://github.com/user-attachments/assets/8ecd625f-9033-48cc-9640-74cab49e303d)
 
 ### 3. Cek container berjalan
 ```bash
 docker ps
-<img width="1419" height="114" alt="image" src="https://github.com/user-attachments/assets/ac03c82e-aa74-404f-9f14-23cf771ac437" />
-
 ```
+![d934e968-a383-4372-9408-45247d8d5c69](https://github.com/user-attachments/assets/44a836d5-8cda-4062-84c1-a5859bffa426)
+
 ### 4. Akses WordPress
 ```bash
 http://localhost:8000
 
 ```
 ### 5. Lakukan instalasi WordPress
-```bash
 - Pilih bahasa
-<img width="1600" height="817" alt="image" src="https://github.com/user-attachments/assets/ebb395a6-5cd6-4429-bdac-2f248ad069de" />
+![1e2a599b-a3d4-45a2-a0b1-cd14c750515d](https://github.com/user-attachments/assets/b77061d4-51b5-4798-9a5d-3b6720c7c4b5)
+
 - Isi nama website
 - Buat username admin
 - Buat password admin
-<img width="1600" height="812" alt="image" src="https://github.com/user-attachments/assets/dec8889f-8387-4398-a38e-4643bdcc4368" />
-- Login ke dashboard
-<img width="1600" height="818" alt="image" src="https://github.com/user-attachments/assets/19570900-3879-4f89-a085-08c5c5be3462" />
+![95b3930b-3d26-40d9-a1ed-4597ae9430ad](https://github.com/user-attachments/assets/720eb804-6302-40a4-a0a0-1b647cce38b8)
 
-```
+- Login ke dashboard
+![71b998e5-1cc1-4abe-a4b5-43c783799cb8](https://github.com/user-attachments/assets/e332b027-0615-46bc-9960-14aef5c42ff0)
+
+
 
 ### 6. Redis CLI Ping Test
 ```bash
 docker exec -it redis_cache redis-cli ping
-<img width="674" height="43" alt="image" src="https://github.com/user-attachments/assets/33f37f1a-0058-4ef3-b3e4-3780de8f9721" />
-
 ```
+![3ec9dac9-de3f-4b4a-8550-4b995588ff4d](https://github.com/user-attachments/assets/18c8bbe5-8c26-4850-97f6-57861d8296d5)
 
 ### 7. Setup Plugin Redis
-```bash
-<img width="1600" height="851" alt="image" src="https://github.com/user-attachments/assets/b785206d-9593-43eb-9aac-e1a35adabadf" />
-=<img width="1600" height="855" alt="image" src="https://github.com/user-attachments/assets/d8b69392-7a86-423d-a332-d73b60d65ea5" />
 
-```
+![efbfabf4-6f89-4197-93cf-237d471711ae](https://github.com/user-attachments/assets/71cb5ae9-b0ed-4afd-83c4-63c8c7efae6e)
+
+![9dde46fc-f916-4a11-87fd-2dea5ef14d44](https://github.com/user-attachments/assets/9e383594-bb6b-4276-8e1b-fd355a755a8d)
 
 ### Jawaban Pertanyaan
 ```bash
