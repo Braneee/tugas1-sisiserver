@@ -79,7 +79,7 @@ docker exec -it redis_cache redis-cli ping
 ![9dde46fc-f916-4a11-87fd-2dea5ef14d44](https://github.com/user-attachments/assets/9e383594-bb6b-4276-8e1b-fd355a755a8d)
 
 ### Jawaban Pertanyaan
-```bash
+
 1. Kenapa perlu volume untuk MySQL?
 Volume diperlukan agar data database MySQL tetap tersimpan meskipun container dihentikan, direstart, atau dihapus lalu dibuat ulang. Tanpa volume, seluruh data seperti user, post, page, dan konfigurasi WordPress di database akan hilang karena data di dalam container bersifat sementara.
 
@@ -91,5 +91,5 @@ WordPress terhubung ke MySQL melalui Docker network internal. Karena kedua conta
 
 4. Apa keuntungan pakai Redis untuk WordPress?
 Redis digunakan sebagai object cache untuk menyimpan data sementara di memory, sehingga WordPress tidak perlu selalu mengambil data yang sama berulang-ulang dari MySQL. Keuntungannya adalah performa website menjadi lebih cepat, beban database berkurang, dan waktu respon aplikasi menjadi lebih baik, terutama saat website mulai sering diakses.
-```
+
 
